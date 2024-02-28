@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T16:08:32 IST" name="Suite" finished-at="2024-02-28T16:09:43 IST" duration-ms="70748">
+    <groups>
+      <group name="regression">
+        <method signature="TS_01_ZigwheelsHomePage.TC_02_verifyDirectedToUpcomingBikes()[pri:2, instance:testcases.TS_01_ZigwheelsHomePage@6b2ea799]" name="TC_02_verifyDirectedToUpcomingBikes" class="testcases.TS_01_ZigwheelsHomePage"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TS_01_ZigwheelsHomePage.TC_01_verifyDirectedToCorrectSite()[pri:1, instance:testcases.TS_01_ZigwheelsHomePage@6b2ea799]" name="TC_01_verifyDirectedToCorrectSite" class="testcases.TS_01_ZigwheelsHomePage"/>
+        <method signature="TS_02_UpcomingHondaBikes.TC_03_verifySelectedManfufacturerHonda()[pri:3, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_03_verifySelectedManfufacturerHonda" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_03_UsedCarModels.TC_08_verifyDirectedToUsedCarsChennai()[pri:8, instance:testcases.TS_03_UsedCarModels@5bf0d49]" name="TC_08_verifyDirectedToUsedCarsChennai" class="testcases.TS_03_UsedCarModels"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TS_02_UpcomingHondaBikes.TC_04_verifyBikeNameForUpcomingHondaBikes()[pri:4, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_04_verifyBikeNameForUpcomingHondaBikes" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_02_UpcomingHondaBikes.TC_05_verifyBikePricesForUpcomingHondaBikes()[pri:5, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_05_verifyBikePricesForUpcomingHondaBikes" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_02_UpcomingHondaBikes.TC_06_verifyBikeReleaseDatesForUpcomingHondaBikes()[pri:6, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_06_verifyBikeReleaseDatesForUpcomingHondaBikes" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_02_UpcomingHondaBikes.TC_07_extractHondaBikes4lac()[pri:7, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_07_extractHondaBikes4lac" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_03_UsedCarModels.TC_09_extarctUsedCarsModel()[pri:9, instance:testcases.TS_03_UsedCarModels@5bf0d49]" name="TC_09_extarctUsedCarsModel" class="testcases.TS_03_UsedCarModels"/>
+        <method signature="TS_04_UserLogin.TC_10_verifyLoginIsDisplayed()[pri:10, instance:testcases.TS_04_UserLogin@5b7a5baa]" name="TC_10_verifyLoginIsDisplayed" class="testcases.TS_04_UserLogin"/>
+        <method signature="TS_04_UserLogin.TC_11_verifyDirectedTogoogleSign()[pri:11, instance:testcases.TS_04_UserLogin@5b7a5baa]" name="TC_11_verifyDirectedTogoogleSign" class="testcases.TS_04_UserLogin"/>
+        <method signature="TS_04_UserLogin.TC_12_verifyErrorMsg()[pri:12, instance:testcases.TS_04_UserLogin@5b7a5baa]" name="TC_12_verifyErrorMsg" class="testcases.TS_04_UserLogin"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TS_01_ZigwheelsHomePage.TC_01_verifyDirectedToCorrectSite()[pri:1, instance:testcases.TS_01_ZigwheelsHomePage@6b2ea799]" name="TC_01_verifyDirectedToCorrectSite" class="testcases.TS_01_ZigwheelsHomePage"/>
+        <method signature="TS_01_ZigwheelsHomePage.TC_02_verifyDirectedToUpcomingBikes()[pri:2, instance:testcases.TS_01_ZigwheelsHomePage@6b2ea799]" name="TC_02_verifyDirectedToUpcomingBikes" class="testcases.TS_01_ZigwheelsHomePage"/>
+        <method signature="TS_02_UpcomingHondaBikes.TC_03_verifySelectedManfufacturerHonda()[pri:3, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_03_verifySelectedManfufacturerHonda" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_02_UpcomingHondaBikes.TC_04_verifyBikeNameForUpcomingHondaBikes()[pri:4, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_04_verifyBikeNameForUpcomingHondaBikes" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_02_UpcomingHondaBikes.TC_05_verifyBikePricesForUpcomingHondaBikes()[pri:5, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_05_verifyBikePricesForUpcomingHondaBikes" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_02_UpcomingHondaBikes.TC_06_verifyBikeReleaseDatesForUpcomingHondaBikes()[pri:6, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_06_verifyBikeReleaseDatesForUpcomingHondaBikes" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_02_UpcomingHondaBikes.TC_07_extractHondaBikes4lac()[pri:7, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" name="TC_07_extractHondaBikes4lac" class="testcases.TS_02_UpcomingHondaBikes"/>
+        <method signature="TS_03_UsedCarModels.TC_08_verifyDirectedToUsedCarsChennai()[pri:8, instance:testcases.TS_03_UsedCarModels@5bf0d49]" name="TC_08_verifyDirectedToUsedCarsChennai" class="testcases.TS_03_UsedCarModels"/>
+        <method signature="TS_03_UsedCarModels.TC_09_extarctUsedCarsModel()[pri:9, instance:testcases.TS_03_UsedCarModels@5bf0d49]" name="TC_09_extarctUsedCarsModel" class="testcases.TS_03_UsedCarModels"/>
+        <method signature="TS_04_UserLogin.TC_10_verifyLoginIsDisplayed()[pri:10, instance:testcases.TS_04_UserLogin@5b7a5baa]" name="TC_10_verifyLoginIsDisplayed" class="testcases.TS_04_UserLogin"/>
+        <method signature="TS_04_UserLogin.TC_11_verifyDirectedTogoogleSign()[pri:11, instance:testcases.TS_04_UserLogin@5b7a5baa]" name="TC_11_verifyDirectedTogoogleSign" class="testcases.TS_04_UserLogin"/>
+        <method signature="TS_04_UserLogin.TC_12_verifyErrorMsg()[pri:12, instance:testcases.TS_04_UserLogin@5b7a5baa]" name="TC_12_verifyErrorMsg" class="testcases.TS_04_UserLogin"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-28T16:08:32 IST" name="test" finished-at="2024-02-28T16:09:43 IST" duration-ms="70748">
+      <class name="testcases.TS_01_ZigwheelsHomePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TS_01_ZigwheelsHomePage@6b2ea799]" started-at="2024-02-28T16:08:33 IST" name="setup" finished-at="2024-02-28T16:09:01 IST" duration-ms="27859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_01_verifyDirectedToCorrectSite()[pri:1, instance:testcases.TS_01_ZigwheelsHomePage@6b2ea799]" started-at="2024-02-28T16:09:01 IST" name="TC_01_verifyDirectedToCorrectSite" finished-at="2024-02-28T16:09:01 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyDirectedToCorrectSite -->
+        <test-method signature="TC_02_verifyDirectedToUpcomingBikes()[pri:2, instance:testcases.TS_01_ZigwheelsHomePage@6b2ea799]" started-at="2024-02-28T16:09:02 IST" name="TC_02_verifyDirectedToUpcomingBikes" finished-at="2024-02-28T16:09:07 IST" duration-ms="5387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_verifyDirectedToUpcomingBikes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TS_01_ZigwheelsHomePage@6b2ea799]" started-at="2024-02-28T16:09:41 IST" name="tearDown" finished-at="2024-02-28T16:09:43 IST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TS_01_ZigwheelsHomePage -->
+      <class name="testcases.TS_04_UserLogin">
+        <test-method signature="TC_10_verifyLoginIsDisplayed()[pri:10, instance:testcases.TS_04_UserLogin@5b7a5baa]" started-at="2024-02-28T16:09:29 IST" name="TC_10_verifyLoginIsDisplayed" finished-at="2024-02-28T16:09:31 IST" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_10_verifyLoginIsDisplayed -->
+        <test-method signature="TC_11_verifyDirectedTogoogleSign()[pri:11, instance:testcases.TS_04_UserLogin@5b7a5baa]" started-at="2024-02-28T16:09:35 IST" name="TC_11_verifyDirectedTogoogleSign" finished-at="2024-02-28T16:09:35 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_11_verifyDirectedTogoogleSign -->
+        <test-method signature="TC_12_verifyErrorMsg()[pri:12, instance:testcases.TS_04_UserLogin@5b7a5baa]" started-at="2024-02-28T16:09:35 IST" name="TC_12_verifyErrorMsg" finished-at="2024-02-28T16:09:41 IST" duration-ms="6358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12_verifyErrorMsg -->
+      </class> <!-- testcases.TS_04_UserLogin -->
+      <class name="testcases.TS_02_UpcomingHondaBikes">
+        <test-method signature="TC_03_verifySelectedManfufacturerHonda()[pri:3, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" started-at="2024-02-28T16:09:07 IST" name="TC_03_verifySelectedManfufacturerHonda" finished-at="2024-02-28T16:09:10 IST" duration-ms="2510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_verifySelectedManfufacturerHonda -->
+        <test-method signature="TC_04_verifyBikeNameForUpcomingHondaBikes()[pri:4, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" started-at="2024-02-28T16:09:10 IST" name="TC_04_verifyBikeNameForUpcomingHondaBikes" finished-at="2024-02-28T16:09:13 IST" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_verifyBikeNameForUpcomingHondaBikes -->
+        <test-method signature="TC_05_verifyBikePricesForUpcomingHondaBikes()[pri:5, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" started-at="2024-02-28T16:09:13 IST" name="TC_05_verifyBikePricesForUpcomingHondaBikes" finished-at="2024-02-28T16:09:14 IST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_verifyBikePricesForUpcomingHondaBikes -->
+        <test-method signature="TC_06_verifyBikeReleaseDatesForUpcomingHondaBikes()[pri:6, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" started-at="2024-02-28T16:09:14 IST" name="TC_06_verifyBikeReleaseDatesForUpcomingHondaBikes" finished-at="2024-02-28T16:09:16 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_verifyBikeReleaseDatesForUpcomingHondaBikes -->
+        <test-method signature="TC_07_extractHondaBikes4lac()[pri:7, instance:testcases.TS_02_UpcomingHondaBikes@175c2241]" started-at="2024-02-28T16:09:16 IST" name="TC_07_extractHondaBikes4lac" finished-at="2024-02-28T16:09:18 IST" duration-ms="2602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_extractHondaBikes4lac -->
+      </class> <!-- testcases.TS_02_UpcomingHondaBikes -->
+      <class name="testcases.TS_03_UsedCarModels">
+        <test-method signature="TC_08_verifyDirectedToUsedCarsChennai()[pri:8, instance:testcases.TS_03_UsedCarModels@5bf0d49]" started-at="2024-02-28T16:09:19 IST" name="TC_08_verifyDirectedToUsedCarsChennai" finished-at="2024-02-28T16:09:25 IST" duration-ms="6130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_verifyDirectedToUsedCarsChennai -->
+        <test-method signature="TC_09_extarctUsedCarsModel()[pri:9, instance:testcases.TS_03_UsedCarModels@5bf0d49]" started-at="2024-02-28T16:09:25 IST" name="TC_09_extarctUsedCarsModel" finished-at="2024-02-28T16:09:28 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_extarctUsedCarsModel -->
+      </class> <!-- testcases.TS_03_UsedCarModels -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>
