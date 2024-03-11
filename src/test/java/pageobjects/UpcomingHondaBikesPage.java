@@ -31,7 +31,7 @@ public class UpcomingHondaBikesPage extends BasePage{
 	@FindBy(xpath="//div[contains(@title,'Ex-Showroom')]")
 	List<WebElement> listBikePrices;
 	
-	@FindBy(xpath="//div[contains(text(),'Launch Date')]")
+	@FindBy(xpath="//div[contains(text(),'Launch')]")
 	List<WebElement> listBikeReleaseDates;
 	
 	@FindBy(xpath="//a[@href='/used-car']")
@@ -144,6 +144,7 @@ public void clickViewMoreBikes() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		
 		js.executeScript("window.scrollTo(0,0)", "");
+		
 		
 	}
 	

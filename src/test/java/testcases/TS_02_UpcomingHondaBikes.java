@@ -48,6 +48,7 @@ public class TS_02_UpcomingHondaBikes extends BaseClass{
 		logger.info("Gets the list of names of honda upcoming bikes");
 		//System.out.println(bikeNames.size());
 		for(int i=0;i<bikeNames.size();i++) {
+			System.out.println(bikeNames.get(i));
 			Assert.assertEquals(bikeNames.get(i).isEmpty(),false,"Name for bike "+i+" is not displayed");
 		}
 		logger.info("TC_04_verifyBikeNameForUpcomingHondaBikes PASSED -- names for all bikes are displayed");
@@ -63,6 +64,7 @@ public class TS_02_UpcomingHondaBikes extends BaseClass{
 		logger.info("Gets the list of prices of honda upcoming bikes");
 		//System.out.println(bikePrices.size());
 		for(int i=0;i<bikePrices.size();i++) {
+			System.out.println(bikePrices.get(i));
 			Assert.assertEquals(bikePrices.get(i).isEmpty(), false,"Price for bike "+i+" is not displayed");
 		}
 		logger.info("TC_05_verifyBikePricesForUpcomingHondaBikes PASSED -- prices for all bikes are displayed");
@@ -78,6 +80,7 @@ public class TS_02_UpcomingHondaBikes extends BaseClass{
 		logger.info("Gets the list of release date of honda upcoming bikes");
 		//System.out.println(bikeReleaseDates.size());
 		for(int i=0;i<bikeReleaseDates.size();i++) {
+			System.out.println(bikeReleaseDates.get(i));
 			Assert.assertEquals(bikeReleaseDates.get(i).isEmpty(), false,"release date for bike "+i+" is not displayed");
 		}
 		logger.info("TC_06_verifyBikeReleaseDatesForUpcomingHondaBikes PASSED -- release date for all bikes are displayed");
